@@ -1,30 +1,79 @@
-# React + TypeScript + Vite
+# 😛 TIC TAC TOE EMOJI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a TIC TACT TOE EMOJI, el juego de tres en línea basado en emojis!
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TIC TACT TOE EMOJI es un juego de tic-tac-toe que ofrece modos de juego emocionantes, tanto para un solo jugador como para varios jugadores. Cada vez que juegas, te encuentras con nuevos emojis que le dan un toque único a la experiencia.
 
-## Expanding the ESLint configuration
+## Modos de Juego
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1️⃣ Modo para un Solo Jugador
 
-- Configure the top-level `parserOptions` property like this:
+En este modo, te enfrentarás contra un bot de la computadora.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Cómo jugar:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  - Haz clic en el botón 'Jugador Solo' para jugar.
+  - Elige un jugador: siempre aparecen nuevos emojis cada vez que visitas la página de selección de jugador.
+  - Luego, elige el modo de juego con el que quieres enfrentarte al bot: Difícil o Fácil.
+  - El jugador que consiga 3 en línea primero gana.
+
+- **Final del juego:**
+
+  - Ya sea una victoria, una derrota o un empate, aparecerá un modal mostrando el resultado una vez que el juego termine. Luego verás dos botones:
+    - Botón 'Repetir' para jugar de nuevo.
+    - Botón 'Inicio' para regresar al menú principal.
+
+- **Continuar juego:**
+  - Si cierras el navegador o dejas la página y vuelves, reanudarás el juego desde donde lo dejaste.
+
+### 2️⃣ Modo Multijugador
+
+En este modo, puedes jugar con otra persona que esté sentada a tu lado.
+
+- **Cómo jugar:**
+
+  - El primer jugador es seleccionado automáticamente, y el segundo jugador automáticamente recibe su propio emoji (aleatorio en cada ronda de juego).
+  - El jugador que consiga 3 en línea primero gana.
+
+- **Final del juego:**
+
+  - Ya sea una victoria, una derrota o un empate, aparecerá un modal mostrando el resultado una vez que el juego termine. Luego verás dos botones:
+    - Botón 'Repetir' para jugar de nuevo.
+    - Botón 'Inicio' para regresar al menú principal.
+
+- **Continuar juego:**
+  - Si cierras el navegador o dejas la página y vuelves, reanudarás el juego desde donde lo dejaste.
+
+## Tecnologías ⚡
+
+- [Vite](https://vitejs.dev/)
+- [React.js](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Zustand](https://zustand.surge.sh/)
+- [Styled Components](https://styled-components.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## Capturas de Pantalla
+
+### Pantalla Principal
+
+<img src="./public/main.jpg" alt="Pantalla Principal" width="400" height="400" style="object-fit: cover" />
+
+### Selección de Jugador
+
+<img src="./public/select.jpg" alt="Selección de Jugador" width="400" height="400" style="object-fit: cover" />
+
+### Selección de Dificultad
+
+<img src="./public/difficult.jpg" alt="Selección de Dificultad" width="400" height="400" style="object-fit: cover" />
+</hr>
+
+### En Juego
+
+<img src="./public/game.jpg" alt="En Juego" width="400" height="400" style="object-fit: cover" />
+
+### Felicidades
+
+<img src="./public/congrats.jpg" alt="Felicidades" width="400" height="400" style="object-fit: cover" />
