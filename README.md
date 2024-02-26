@@ -59,21 +59,21 @@ En este modo, puedes jugar con otra persona que esté sentada a tu lado.
 
 ### Pantalla Principal
 
-<img src="./public/main.jpg" alt="Pantalla Principal" width="400" height="400" style="object-fit: cover" />
+<img src="./public/main.jpg" alt="Pantalla Principal" width="400"  style="object-fit: cover" />
 
 ### Selección de Jugador
 
-<img src="./public/select.jpg" alt="Selección de Jugador" width="400" height="400" style="object-fit: cover" />
+<img src="./public/select.jpg" alt="Selección de Jugador" width="400" style="object-fit: cover" />
 
 ### Selección de Dificultad
 
-<img src="./public/difficult.jpg" alt="Selección de Dificultad" width="400" height="400" style="object-fit: cover" />
+<img src="./public/difficult.jpg" alt="Selección de Dificultad" width="400" style="object-fit: cover" />
 </hr>
 
 ### En Juego
 
-<img src="./public/game.jpg" alt="En Juego" width="400" height="400" style="object-fit: cover" />
+<img src="./public/game.jpg" alt="En Juego" width="400" style="object-fit: cover" />
 
 ### Felicidades
 
-<img src="./public/congrats.jpg" alt="Felicidades" width="400" height="400" style="object-fit: cover" />
+<img src="./public/congrats.jpg" alt="Felicidades" width="400"  style="object-fit: cover" />
