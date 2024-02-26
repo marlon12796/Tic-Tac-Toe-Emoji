@@ -4,9 +4,9 @@ import { Suspense, lazy } from 'react';
 import { Spinner } from './components/Spinner/Spinner';
 const Start = lazy(() => import('./components/Start/Start'));
 const SinglePlayer = lazy(() => import('./components/SinglePlayer/SinglePlayer'));
+const MultiPlayer = lazy(() => import('./components/MultiPlayer/MultiPlayer'));
 function App() {
 	const { navigate } = useGameStore();
-	console.log(navigate);
 	return (
 		<>
 			<Toaster />
@@ -18,6 +18,11 @@ function App() {
 			{navigate === 'single-player' && (
 				<Suspense fallback={<Spinner />}>
 					<SinglePlayer />
+				</Suspense>
+			)}
+			{navigate === 'multi-player' && (
+				<Suspense fallback={<Spinner />}>
+					<MultiPlayer />
 				</Suspense>
 			)}
 		</>
