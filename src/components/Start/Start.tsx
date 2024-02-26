@@ -3,7 +3,7 @@ import { Button, ButtonsContainer, Footer, FooterLink, Wrapper, Emoji, Square, T
 import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { useGameStore } from '../../hooks/useGameStore';
-import { getRandomEmoji } from '../../hooks/getRandomEmoji';
+import { getRandomEmoji } from '../../utils/getRandomEmoji';
 
 export default function Start() {
 	const { setNavigate, setGameNavigate } = useGameStore();
